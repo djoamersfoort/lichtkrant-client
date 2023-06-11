@@ -1,0 +1,39 @@
+h3 {
+    margin: 5px;
+}
+
+.container {
+    --from: #000;
+    --to: #000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(162.22deg, var(--from), var(--to));
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.explanations {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 15px 25px;
+}
+
+.component {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    background: #00000020;
+    align-items: center;
+    border-radius: 5px;
+}

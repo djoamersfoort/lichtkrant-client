@@ -1,0 +1,17 @@
+.game {
+    --from: #000;
+    --to: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(162.22deg, var(--from), var(--to));
+    min-width: 200px;
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+.title {
+    margin: 0;
+}
