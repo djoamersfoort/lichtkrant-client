@@ -1,0 +1,214 @@
+{
+  "\u0000vite/modulepreload-polyfill": [
+  ],
+  "\u0000vite/preload-helper": [
+  ],
+  ".solid/index.html": [
+  ],
+  "node_modules/@socket.io/component-emitter/index.mjs": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/@solidjs/meta/dist/index.jsx": [
+  ],
+  "node_modules/@solidjs/router/dist/components.jsx": [
+  ],
+  "node_modules/@solidjs/router/dist/integration.js": [
+  ],
+  "node_modules/@solidjs/router/dist/lifecycle.js": [
+  ],
+  "node_modules/@solidjs/router/dist/routing.js": [
+  ],
+  "node_modules/@solidjs/router/dist/utils.js": [
+  ],
+  "node_modules/engine.io-client/build/esm/contrib/has-cors.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/engine.io-client/build/esm/contrib/parseqs.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/engine.io-client/build/esm/contrib/parseuri.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/engine.io-client/build/esm/contrib/yeast.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/engine.io-client/build/esm/globalThis.browser.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/engine.io-client/build/esm/socket.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/engine.io-client/build/esm/transport.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/engine.io-client/build/esm/transports/index.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/engine.io-client/build/esm/transports/polling.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/engine.io-client/build/esm/transports/websocket-constructor.browser.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/engine.io-client/build/esm/transports/websocket.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/engine.io-client/build/esm/transports/xmlhttprequest.browser.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/engine.io-client/build/esm/util.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/engine.io-parser/build/esm/commons.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/engine.io-parser/build/esm/contrib/base64-arraybuffer.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/engine.io-parser/build/esm/decodePacket.browser.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/engine.io-parser/build/esm/encodePacket.browser.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/engine.io-parser/build/esm/index.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/socket.io-client/build/esm/contrib/backo2.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/socket.io-client/build/esm/index.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/socket.io-client/build/esm/manager.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/socket.io-client/build/esm/on.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/socket.io-client/build/esm/socket.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/socket.io-client/build/esm/url.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/socket.io-parser/build/esm/binary.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/socket.io-parser/build/esm/index.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/socket.io-parser/build/esm/is-binary.js": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "node_modules/solid-js/dist/solid.js": [
+  ],
+  "node_modules/solid-js/web/dist/web.js": [
+  ],
+  "node_modules/solid-start/entry-client/StartClient.tsx": [
+  ],
+  "node_modules/solid-start/entry-client/mount.tsx": [
+  ],
+  "node_modules/solid-start/error-boundary/ErrorBoundary.tsx": [
+  ],
+  "node_modules/solid-start/root/Document.tsx": [
+  ],
+  "node_modules/solid-start/root/FileRoutes.tsx": [
+  ],
+  "node_modules/solid-start/root/Scripts.tsx": [
+  ],
+  "node_modules/solid-start/router.tsx": [
+  ],
+  "node_modules/solid-start/server/ServerContext.tsx": [
+  ],
+  "node_modules/solid-start/server/components/HttpStatusCode.tsx": [
+    "/assets/_...404_-9dd20d9e.js"
+  ],
+  "node_modules/solid-start/server/types.tsx": [
+  ],
+  "src/components/ColorSettings.module.css?used": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "src/components/ColorSettings.tsx": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "src/components/Game.module.css?used": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "src/components/Game.tsx": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "src/components/KeyHint.module.css?used": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "src/components/KeyHint.tsx": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "src/components/Menu.module.css?used": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "src/components/Menu.tsx": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "src/components/Play.module.css?used": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "src/components/Play.tsx": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "src/entry-client.tsx": [
+  ],
+  "src/root.css": [
+  ],
+  "src/root.tsx": [
+  ],
+  "src/routes/[...404].tsx": [
+    "/assets/_...404_-9dd20d9e.js"
+  ],
+  "src/routes/index.tsx": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ],
+  "src/types/interfaces.ts": [
+    "/assets/index-12aa40bd.js",
+    "/assets/index-8b20e0b0.css"
+  ]
+}
