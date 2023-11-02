@@ -1,8 +1,8 @@
-import Menu from "~/components/Menu";
-import {Game, KeyType} from "~/types/interfaces";
-import {createEffect, createSignal} from "solid-js";
-import Play from "~/components/Play";
-import {io} from "socket.io-client";
+import Menu from "~/components/Menu"
+import Play from "~/components/Play"
+import { Game } from "~/types/interfaces"
+import { createSignal } from "solid-js"
+import { io } from "socket.io-client"
 
 enum State {
     LOADING,

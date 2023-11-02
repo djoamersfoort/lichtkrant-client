@@ -1,7 +1,7 @@
-import { ColorPreferences } from "~/types/interfaces";
 import style from './ColorSettings.module.css'
-import {createEffect, createSignal} from "solid-js";
-import {Socket} from "socket.io-client";
+import { createEffect, createSignal } from "solid-js";
+import { Socket } from "socket.io-client";
+import { ColorPreferences } from "~/types/interfaces";
 
 export default function ColorSettings({ settings, socket } : { settings: ColorPreferences, socket: Socket }) {
     const [color, setColor] = createSignal(localStorage.getItem('color') || '#57e389')

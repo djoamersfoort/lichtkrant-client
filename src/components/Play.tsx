@@ -1,10 +1,10 @@
-import {Game} from "~/types/interfaces"
-import { Socket } from 'socket.io-client'
-import ColorSettings from "~/components/ColorSettings";
-import {For} from "solid-js";
-import KeyHint from "~/components/KeyHint";
-import style from './Play.module.css'
-import {Title} from "solid-start";
+import style from "./Play.module.css"
+import KeyHint from "~/components/KeyHint"
+import ColorSettings from "~/components/ColorSettings"
+import { Title } from "solid-start"
+import { For } from "solid-js"
+import { Socket } from "socket.io-client"
+import { Game } from "~/types/interfaces"
 
 export default function Play({ game, socket, leave } : { game: Game, socket: Socket, leave: () => void }) {
     document.addEventListener('keydown', ({ key }) => {
