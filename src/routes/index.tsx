@@ -14,7 +14,7 @@ export default function Home() {
     const [state, setState] = createSignal(State.LOADING)
     const [game, setGame] = createSignal(null as Game | null)
     const [games, setGames] = createSignal([] as Game[])
-    const socket = io(import.meta.env.DEV ? "http://localhost:5000" : '/')
+    const socket = io(import.meta.env.DEV ? "http://localhost:8080" : '/')
 
     socket.on('games', (games: Game[]) => {
         setGames(games)
