@@ -1,22 +1,30 @@
-import {Game} from "~/types/interfaces"
-import { Socket } from 'socket.io-client'
-import ColorSettings from "~/components/ColorSettings";
-import {For} from "solid-js";
-import KeyHint from "~/components/KeyHint";
-import style from './Play.module.css'
-import {Title} from "solid-start";
+import style from "./Play.module.css"
+import KeyHint from "~/components/KeyHint"
+import ColorSettings from "~/components/ColorSettings"
+import { Title } from "solid-start"
+import { For, onMount, onCleanup } from "solid-js"
+import { Socket } from "socket.io-client"
+import { Game } from "~/types/interfaces"
 
-export default function Play({ game, socket, leave } : { game: Game, socket: Socket, leave: () => void }) {
-    document.addEventListener('keydown', ({ key }) => {
+export default function Play({ game, socket } : { game: Game, socket: Socket }) {
+    const downListener = ({ key }: KeyboardEvent) => {
         if (!game.keys.includes(key)) return
 
         socket.emit('key_down', key)
-    })
-    document.addEventListener('keyup', ({ key }) => {
-        if (key === 'Escape') return leave()
+    }
+    const upListener = ({ key }: KeyboardEvent) => {
         if (!game.keys.includes(key)) return
 
         socket.emit('key_up', key)
+    }
+
+    onMount(() =>  {
+        document.addEventListener('keydown', downListener)
+        document.addEventListener('keyup', upListener)
+    })
+    onCleanup(() => {
+        document.removeEventListener('keydown', downListener)
+        document.removeEventListener('keyup', upListener)
     })
 
     return (

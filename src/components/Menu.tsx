@@ -1,7 +1,7 @@
-import {Game} from "~/types/interfaces";
-import {For} from "solid-js";
-import GameComponent from '~/components/Game'
-import style from './Menu.module.css'
+import style from "./Menu.module.css"
+import GameComponent from "~/components/Game"
+import { For } from "solid-js"
+import { Game } from "~/types/interfaces"
 
 export default function Menu({ games, play } : { games: Game[], play: (game: Game) => void }) {
     return (

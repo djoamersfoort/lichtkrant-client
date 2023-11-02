@@ -1,6 +1,6 @@
-import {BaseKeyExplanation, GridKeyExplanation, KeyType, LargeKeyExplanation} from "~/types/interfaces";
-import {For} from "solid-js";
-import style from './KeyHint.module.css'
+import style from "./KeyHint.module.css"
+import { For } from "solid-js"
+import { BaseKeyExplanation, GridKeyExplanation, KeyType, LargeKeyExplanation } from "~/types/interfaces"
 
 function Grid({ explanation } : { explanation: GridKeyExplanation }) {
     return (

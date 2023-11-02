@@ -1,5 +1,5 @@
-import {Game} from "~/types/interfaces";
-import styles from './Game.module.css'
+import styles from "./Game.module.css"
+import { Game } from "~/types/interfaces"
 
 export default function GameComponent({ game, play } : { game: Game, play: () => void }) {
     return (
