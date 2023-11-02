@@ -20,7 +20,7 @@ export default function Home() {
 
     document.addEventListener('keyup', ({ code }) => {
         if (code !== 'Escape') return
-        if(state() < State.READYING) return
+        if ([State.LOADING, State.MENU].includes(state())) return
 
         socket.emit('leave')
         setState(State.MENU)
