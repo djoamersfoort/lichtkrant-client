@@ -2,11 +2,11 @@
   "/*404": [
     {
       "type": "script",
-      "href": "/assets/_...404_-72b745f4.js"
+      "href": "/assets/_...404_-62293dbb.js"
     },
     {
       "type": "script",
-      "href": "/assets/index-5c51b44c.js"
+      "href": "/assets/index-0591c417.js"
     },
     {
       "type": "style",
@@ -16,11 +16,11 @@
   "/": [
     {
       "type": "script",
-      "href": "/assets/index-67a0094e.js"
+      "href": "/assets/index-e5f25477.js"
     },
     {
       "type": "script",
-      "href": "/assets/index-5c51b44c.js"
+      "href": "/assets/index-0591c417.js"
     },
     {
       "type": "style",
@@ -35,7 +35,7 @@
   "index.html": [
     {
       "type": "script",
-      "href": "/assets/index-5c51b44c.js"
+      "href": "/assets/index-0591c417.js"
     },
     {
       "type": "style",
