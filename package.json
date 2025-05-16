@@ -20,7 +20,7 @@
     "socket.io-client": "^4.7.5",
     "solid-js": "^1.7.2",
     "solid-start": "^0.2.26",
-    "undici": "^5.28.5"
+    "undici": "^5.29.0"
   },
   "engines": {
     "node": ">=16.8"
