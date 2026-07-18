@@ -1,45 +1,69 @@
 {
-  "/*404": [
-    {
+  "/*404": {
+    "type": "route",
+    "script": {
       "type": "script",
-      "href": "/assets/_...404_-4edc8a2c.js"
+      "href": "/assets/_...404_-e46c7ea0.js"
     },
-    {
+    "assets": [
+      {
+        "type": "script",
+        "href": "/assets/_...404_-e46c7ea0.js"
+      },
+      {
+        "type": "script",
+        "href": "/assets/index-bed0fae2.js"
+      },
+      {
+        "type": "style",
+        "href": "/assets/index-a6bbd717.css"
+      }
+    ]
+  },
+  "/": {
+    "type": "route",
+    "script": {
       "type": "script",
-      "href": "/assets/index-8199a733.js"
+      "href": "/assets/index-cc5f223c.js"
     },
-    {
-      "type": "style",
-      "href": "/assets/index-a6bbd717.css"
-    }
-  ],
-  "/": [
-    {
+    "assets": [
+      {
+        "type": "script",
+        "href": "/assets/index-cc5f223c.js"
+      },
+      {
+        "type": "script",
+        "href": "/assets/index-bed0fae2.js"
+      },
+      {
+        "type": "style",
+        "href": "/assets/index-a6bbd717.css"
+      },
+      {
+        "type": "style",
+        "href": "/assets/index-38749d3e.css"
+      }
+    ]
+  },
+  "entry-client": {
+    "type": "entry",
+    "assets": []
+  },
+  "index.html": {
+    "type": "entry",
+    "script": {
       "type": "script",
-      "href": "/assets/index-10288ada.js"
+      "href": "/assets/index-bed0fae2.js"
     },
-    {
-      "type": "script",
-      "href": "/assets/index-8199a733.js"
-    },
-    {
-      "type": "style",
-      "href": "/assets/index-a6bbd717.css"
-    },
-    {
-      "type": "style",
-      "href": "/assets/index-38749d3e.css"
-    }
-  ],
-  "entry-client": [],
-  "index.html": [
-    {
-      "type": "script",
-      "href": "/assets/index-8199a733.js"
-    },
-    {
-      "type": "style",
-      "href": "/assets/index-a6bbd717.css"
-    }
-  ]
+    "assets": [
+      {
+        "type": "script",
+        "href": "/assets/index-bed0fae2.js"
+      },
+      {
+        "type": "style",
+        "href": "/assets/index-a6bbd717.css"
+      }
+    ]
+  }
 }
